@@ -7,12 +7,10 @@
 .container {
     max-width: 500px;
     margin: 0 auto;
-    background-color: rgb(255, 166, 0);
-    height: 100vh;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 
 .profile {
@@ -20,12 +18,45 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    
+ 
 }
 
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+  }
+  
+  img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    transition: transform 0.10s ease;
+
+  }
+  img :hover {
+    transform: scale(1.2);
+  }
+  
+
 .profile>img {
-    width: 200px;
+    width: 85px;
     height: 85px;
+    margin-top: 39px;
 
 }
 .profile> p {
@@ -35,13 +66,18 @@
     text-transform: capitalize;
     text-align:center; 
     font-family: arial;
+    margin-top: 20px;
+    font-weight: 700;
 }
 .link {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
+    position: relative;
+    top: -350px
 }
+
 .link> a{
     text-decoration: none;
     color: #ffffff;
@@ -49,32 +85,121 @@
     text-align: center;
     border: 1px solid white;
     background-color:#173248;
-    border-radius: 7px;
-    margin: 5px 10px;
+    border-radius: 30px;
+    margin: 12px;
     padding: 10px;
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Bebas Neue', cursive;
 }
-
 .link> a:hover {
     background-color: #3aafaf;
     
 }
-.footer {
-    text-align: center;
+
+.gambar1> img {
+    width: 70px;
+    height: 70px;
+    position: relative ;
+    top:-9px
+  
+
+}
+.gambar1 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* setengah dari tinggi dan lebar */
+    background-color: rgb(121, 140, 193);
+    position: relative;
+    top: 370px;
+    box-shadow: 10px 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border: 2px solid white;
+   
 }
 
-.footer> i{
-    color: black;
-    width: 20px;
+.gambar2> img {
+    width: 70px;
+    height: 70px;
+    position: relative ;
+    top:-9px
+
 }
+.gambar2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* setengah dari tinggi dan lebar */
+    background-color: rgb(121, 140, 193);
+    position: relative;
+    top: 373px;
+    box-shadow: 10px 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border: 2px solid white;
+   
+}
+.gambar3> img {
+    width: 70px;
+    height: 70px;
+    position: relative ;
+    top:-9px
+
+}
+.gambar3 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* setengah dari tinggi dan lebar */
+    background-color: rgb(121, 140, 193);
+    position: relative;
+    top: 376px;
+    box-shadow: 10px 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border: 2px solid white;
+   
+}
+.gambar4> img {
+    width: 70px;
+    height: 70px;
+    position: relative ;
+    top:-9px
+
+}
+.gambar4 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* setengah dari tinggi dan lebar */
+    background-color: rgb(121, 140, 193);
+    position: relative;
+    top: 380px;
+    box-shadow: 10px 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border: 2px solid white;
+   
+}
+.gambar5> img {
+    width: 70px;
+    height: 70px;
+    position: relative ;
+    top:-9px
+
+}
+.gambar5 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* setengah dari tinggi dan lebar */
+    background-color: rgb(121, 140, 193);
+    position: relative;
+    top: 385px;
+    box-shadow: 10px 1px 3px 0 rgba(0, 0, 0, 0.4);
+    border: 2px solid white;
+   
+}
+
+
+
 
 .copyright> .container {
     flex-direction: column;
     text-align: center;
     padding: 100px;
-
+    font-weight: 900;
+    margin-top: -400px;
+    
 
 }
 
